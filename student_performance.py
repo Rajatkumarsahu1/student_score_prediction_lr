@@ -40,7 +40,11 @@ def main():
         prediction=predict_data(user_data)
         st.success(f"Your Prediction Result is {prediction}")
         st.markdown("---")
-        st.markdown("**Made by [Rajat Kumar Sahu](https://www.linkedin.com/in/rajat-kumar-sahu1/)**  \n📧 rajatks1997@gmail.com")
+        st.markdown(
+            "**Made by [Rajat Kumar Sahu](https://www.linkedin.com/in/rajat-kumar-sahu1/)**  \n"
+            "📧 [rajatks1997@gmail.com](mailto:rajatks1997@gmail.com)"
+        )
+
 
     
     
